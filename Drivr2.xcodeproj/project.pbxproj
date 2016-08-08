@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD34CF191D58E03B006BD0E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD34CF181D58E03B006BD0E1 /* AppDelegate.swift */; };
+		BD34CF1B1D58E03B006BD0E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD34CF1A1D58E03B006BD0E1 /* ViewController.swift */; };
+		BD34CF1E1D58E03B006BD0E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD34CF1C1D58E03B006BD0E1 /* Main.storyboard */; };
+		BD34CF211D58E03B006BD0E1 /* Drivr2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD34CF1F1D58E03B006BD0E1 /* Drivr2.xcdatamodeld */; };
+		BD34CF231D58E03B006BD0E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD34CF221D58E03B006BD0E1 /* Assets.xcassets */; };
+		BD34CF261D58E03B006BD0E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD34CF241D58E03B006BD0E1 /* LaunchScreen.storyboard */; };
+		BD34CF311D58E03B006BD0E1 /* Drivr2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD34CF301D58E03B006BD0E1 /* Drivr2Tests.swift */; };
+		BD34CF3C1D58E03B006BD0E1 /* Drivr2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD34CF3B1D58E03B006BD0E1 /* Drivr2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD34CF2D1D58E03B006BD0E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD34CF0D1D58E03B006BD0E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD34CF141D58E03B006BD0E1;
+			remoteInfo = Drivr2;
+		};
+		BD34CF381D58E03B006BD0E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD34CF0D1D58E03B006BD0E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD34CF141D58E03B006BD0E1;
+			remoteInfo = Drivr2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD34CF151D58E03B006BD0E1 /* Drivr2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drivr2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD34CF181D58E03B006BD0E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD34CF1A1D58E03B006BD0E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD34CF1D1D58E03B006BD0E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD34CF201D58E03B006BD0E1 /* Drivr2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Drivr2.xcdatamodel; sourceTree = "<group>"; };
+		BD34CF221D58E03B006BD0E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD34CF251D58E03B006BD0E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD34CF271D58E03B006BD0E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD34CF2C1D58E03B006BD0E1 /* Drivr2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Drivr2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD34CF301D58E03B006BD0E1 /* Drivr2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drivr2Tests.swift; sourceTree = "<group>"; };
+		BD34CF321D58E03B006BD0E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD34CF371D58E03B006BD0E1 /* Drivr2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Drivr2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD34CF3B1D58E03B006BD0E1 /* Drivr2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drivr2UITests.swift; sourceTree = "<group>"; };
+		BD34CF3D1D58E03B006BD0E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD34CF121D58E03B006BD0E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD34CF291D58E03B006BD0E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD34CF341D58E03B006BD0E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD34CF0C1D58E03B006BD0E1 = {
+			isa = PBXGroup;
+			children = (
+				BD34CF171D58E03B006BD0E1 /* Drivr2 */,
+				BD34CF2F1D58E03B006BD0E1 /* Drivr2Tests */,
+				BD34CF3A1D58E03B006BD0E1 /* Drivr2UITests */,
+				BD34CF161D58E03B006BD0E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD34CF161D58E03B006BD0E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD34CF151D58E03B006BD0E1 /* Drivr2.app */,
+				BD34CF2C1D58E03B006BD0E1 /* Drivr2Tests.xctest */,
+				BD34CF371D58E03B006BD0E1 /* Drivr2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD34CF171D58E03B006BD0E1 /* Drivr2 */ = {
+			isa = PBXGroup;
+			children = (
+				BD34CF181D58E03B006BD0E1 /* AppDelegate.swift */,
+				BD34CF1A1D58E03B006BD0E1 /* ViewController.swift */,
+				BD34CF1C1D58E03B006BD0E1 /* Main.storyboard */,
+				BD34CF221D58E03B006BD0E1 /* Assets.xcassets */,
+				BD34CF241D58E03B006BD0E1 /* LaunchScreen.storyboard */,
+				BD34CF271D58E03B006BD0E1 /* Info.plist */,
+				BD34CF1F1D58E03B006BD0E1 /* Drivr2.xcdatamodeld */,
+			);
+			path = Drivr2;
+			sourceTree = "<group>";
+		};
+		BD34CF2F1D58E03B006BD0E1 /* Drivr2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BD34CF301D58E03B006BD0E1 /* Drivr2Tests.swift */,
+				BD34CF321D58E03B006BD0E1 /* Info.plist */,
+			);
+			path = Drivr2Tests;
+			sourceTree = "<group>";
+		};
+		BD34CF3A1D58E03B006BD0E1 /* Drivr2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD34CF3B1D58E03B006BD0E1 /* Drivr2UITests.swift */,
+				BD34CF3D1D58E03B006BD0E1 /* Info.plist */,
+			);
+			path = Drivr2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD34CF141D58E03B006BD0E1 /* Drivr2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD34CF401D58E03B006BD0E1 /* Build configuration list for PBXNativeTarget "Drivr2" */;
+			buildPhases = (
+				BD34CF111D58E03B006BD0E1 /* Sources */,
+				BD34CF121D58E03B006BD0E1 /* Frameworks */,
+				BD34CF131D58E03B006BD0E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Drivr2;
+			productName = Drivr2;
+			productReference = BD34CF151D58E03B006BD0E1 /* Drivr2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD34CF2B1D58E03B006BD0E1 /* Drivr2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD34CF431D58E03B006BD0E1 /* Build configuration list for PBXNativeTarget "Drivr2Tests" */;
+			buildPhases = (
+				BD34CF281D58E03B006BD0E1 /* Sources */,
+				BD34CF291D58E03B006BD0E1 /* Frameworks */,
+				BD34CF2A1D58E03B006BD0E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD34CF2E1D58E03B006BD0E1 /* PBXTargetDependency */,
+			);
+			name = Drivr2Tests;
+			productName = Drivr2Tests;
+			productReference = BD34CF2C1D58E03B006BD0E1 /* Drivr2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD34CF361D58E03B006BD0E1 /* Drivr2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD34CF461D58E03B006BD0E1 /* Build configuration list for PBXNativeTarget "Drivr2UITests" */;
+			buildPhases = (
+				BD34CF331D58E03B006BD0E1 /* Sources */,
+				BD34CF341D58E03B006BD0E1 /* Frameworks */,
+				BD34CF351D58E03B006BD0E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD34CF391D58E03B006BD0E1 /* PBXTargetDependency */,
+			);
+			name = Drivr2UITests;
+			productName = Drivr2UITests;
+			productReference = BD34CF371D58E03B006BD0E1 /* Drivr2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD34CF0D1D58E03B006BD0E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = SakuraDavis;
+				TargetAttributes = {
+					BD34CF141D58E03B006BD0E1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BD34CF2B1D58E03B006BD0E1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BD34CF141D58E03B006BD0E1;
+					};
+					BD34CF361D58E03B006BD0E1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BD34CF141D58E03B006BD0E1;
+					};
+				};
+			};
+			buildConfigurationList = BD34CF101D58E03B006BD0E1 /* Build configuration list for PBXProject "Drivr2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD34CF0C1D58E03B006BD0E1;
+			productRefGroup = BD34CF161D58E03B006BD0E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD34CF141D58E03B006BD0E1 /* Drivr2 */,
+				BD34CF2B1D58E03B006BD0E1 /* Drivr2Tests */,
+				BD34CF361D58E03B006BD0E1 /* Drivr2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD34CF131D58E03B006BD0E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD34CF261D58E03B006BD0E1 /* LaunchScreen.storyboard in Resources */,
+				BD34CF231D58E03B006BD0E1 /* Assets.xcassets in Resources */,
+				BD34CF1E1D58E03B006BD0E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD34CF2A1D58E03B006BD0E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD34CF351D58E03B006BD0E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD34CF111D58E03B006BD0E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD34CF1B1D58E03B006BD0E1 /* ViewController.swift in Sources */,
+				BD34CF211D58E03B006BD0E1 /* Drivr2.xcdatamodeld in Sources */,
+				BD34CF191D58E03B006BD0E1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD34CF281D58E03B006BD0E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD34CF311D58E03B006BD0E1 /* Drivr2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD34CF331D58E03B006BD0E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD34CF3C1D58E03B006BD0E1 /* Drivr2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD34CF2E1D58E03B006BD0E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD34CF141D58E03B006BD0E1 /* Drivr2 */;
+			targetProxy = BD34CF2D1D58E03B006BD0E1 /* PBXContainerItemProxy */;
+		};
+		BD34CF391D58E03B006BD0E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD34CF141D58E03B006BD0E1 /* Drivr2 */;
+			targetProxy = BD34CF381D58E03B006BD0E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD34CF1C1D58E03B006BD0E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD34CF1D1D58E03B006BD0E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD34CF241D58E03B006BD0E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD34CF251D58E03B006BD0E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD34CF3E1D58E03B006BD0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD34CF3F1D58E03B006BD0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD34CF411D58E03B006BD0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Drivr2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakuradavis1.Drivr2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD34CF421D58E03B006BD0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Drivr2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakuradavis1.Drivr2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD34CF441D58E03B006BD0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Drivr2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakuradavis1.Drivr2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drivr2.app/Drivr2";
+			};
+			name = Debug;
+		};
+		BD34CF451D58E03B006BD0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Drivr2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakuradavis1.Drivr2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drivr2.app/Drivr2";
+			};
+			name = Release;
+		};
+		BD34CF471D58E03B006BD0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Drivr2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakuradavis1.Drivr2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Drivr2;
+			};
+			name = Debug;
+		};
+		BD34CF481D58E03B006BD0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Drivr2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sakuradavis1.Drivr2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Drivr2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD34CF101D58E03B006BD0E1 /* Build configuration list for PBXProject "Drivr2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD34CF3E1D58E03B006BD0E1 /* Debug */,
+				BD34CF3F1D58E03B006BD0E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD34CF401D58E03B006BD0E1 /* Build configuration list for PBXNativeTarget "Drivr2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD34CF411D58E03B006BD0E1 /* Debug */,
+				BD34CF421D58E03B006BD0E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD34CF431D58E03B006BD0E1 /* Build configuration list for PBXNativeTarget "Drivr2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD34CF441D58E03B006BD0E1 /* Debug */,
+				BD34CF451D58E03B006BD0E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD34CF461D58E03B006BD0E1 /* Build configuration list for PBXNativeTarget "Drivr2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD34CF471D58E03B006BD0E1 /* Debug */,
+				BD34CF481D58E03B006BD0E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BD34CF1F1D58E03B006BD0E1 /* Drivr2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD34CF201D58E03B006BD0E1 /* Drivr2.xcdatamodel */,
+			);
+			currentVersion = BD34CF201D58E03B006BD0E1 /* Drivr2.xcdatamodel */;
+			path = Drivr2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BD34CF0D1D58E03B006BD0E1 /* Project object */;
+}
