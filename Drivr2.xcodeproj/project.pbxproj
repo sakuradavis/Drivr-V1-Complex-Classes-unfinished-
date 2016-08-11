@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EEE7B27C2609FA4AB9A8376 /* Pods_Drivr2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3569A40A6C3132BC4F509CA5 /* Pods_Drivr2.framework */; };
+		9A8242BD0E6D577D109DBB15 /* Pods_Drivr2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5049C84B61BB8D05F00CC10D /* Pods_Drivr2Tests.framework */; };
 		BD34CF191D58E03B006BD0E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD34CF181D58E03B006BD0E1 /* AppDelegate.swift */; };
-		BD34CF1B1D58E03B006BD0E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD34CF1A1D58E03B006BD0E1 /* ViewController.swift */; };
+		BD34CF1B1D58E03B006BD0E1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD34CF1A1D58E03B006BD0E1 /* HomeViewController.swift */; };
 		BD34CF1E1D58E03B006BD0E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD34CF1C1D58E03B006BD0E1 /* Main.storyboard */; };
 		BD34CF211D58E03B006BD0E1 /* Drivr2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD34CF1F1D58E03B006BD0E1 /* Drivr2.xcdatamodeld */; };
 		BD34CF231D58E03B006BD0E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD34CF221D58E03B006BD0E1 /* Assets.xcassets */; };
-		BD34CF261D58E03B006BD0E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD34CF241D58E03B006BD0E1 /* LaunchScreen.storyboard */; };
 		BD34CF311D58E03B006BD0E1 /* Drivr2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD34CF301D58E03B006BD0E1 /* Drivr2Tests.swift */; };
-		BD34CF3C1D58E03B006BD0E1 /* Drivr2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD34CF3B1D58E03B006BD0E1 /* Drivr2UITests.swift */; };
+		BD34CF4B1D58E872006BD0E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD34CF491D58E872006BD0E1 /* LaunchScreen.storyboard */; };
+		BD34CF4D1D58FDA5006BD0E1 /* OwnDriveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD34CF4C1D58FDA5006BD0E1 /* OwnDriveViewController.swift */; };
+		BD34CF4F1D58FDB2006BD0E1 /* OthersMonitorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD34CF4E1D58FDB2006BD0E1 /* OthersMonitorViewController.swift */; };
+		BD34CF511D5902AF006BD0E1 /* ParseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD34CF501D5902AF006BD0E1 /* ParseHelper.swift */; };
+		BD34CF531D5902B6006BD0E1 /* Drive.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD34CF521D5902B6006BD0E1 /* Drive.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,30 +30,32 @@
 			remoteGlobalIDString = BD34CF141D58E03B006BD0E1;
 			remoteInfo = Drivr2;
 		};
-		BD34CF381D58E03B006BD0E1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BD34CF0D1D58E03B006BD0E1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BD34CF141D58E03B006BD0E1;
-			remoteInfo = Drivr2;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1065EE21A2DADAD4F74E01FA /* Pods-Drivr2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Drivr2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Drivr2/Pods-Drivr2.debug.xcconfig"; sourceTree = "<group>"; };
+		3569A40A6C3132BC4F509CA5 /* Pods_Drivr2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Drivr2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EB9059C018DCEFFF27A3023 /* Pods-Drivr2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Drivr2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Drivr2Tests/Pods-Drivr2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5049C84B61BB8D05F00CC10D /* Pods_Drivr2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Drivr2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F445E22BAAD213A75ED6B89 /* Pods-Drivr2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Drivr2Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Drivr2Tests/Pods-Drivr2Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BD34CF151D58E03B006BD0E1 /* Drivr2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drivr2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD34CF181D58E03B006BD0E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BD34CF1A1D58E03B006BD0E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD34CF1A1D58E03B006BD0E1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		BD34CF1D1D58E03B006BD0E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD34CF201D58E03B006BD0E1 /* Drivr2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Drivr2.xcdatamodel; sourceTree = "<group>"; };
 		BD34CF221D58E03B006BD0E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BD34CF251D58E03B006BD0E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD34CF271D58E03B006BD0E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD34CF2C1D58E03B006BD0E1 /* Drivr2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Drivr2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD34CF301D58E03B006BD0E1 /* Drivr2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drivr2Tests.swift; sourceTree = "<group>"; };
 		BD34CF321D58E03B006BD0E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BD34CF371D58E03B006BD0E1 /* Drivr2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Drivr2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD34CF3B1D58E03B006BD0E1 /* Drivr2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drivr2UITests.swift; sourceTree = "<group>"; };
 		BD34CF3D1D58E03B006BD0E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD34CF4A1D58E872006BD0E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD34CF4C1D58FDA5006BD0E1 /* OwnDriveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OwnDriveViewController.swift; sourceTree = "<group>"; };
+		BD34CF4E1D58FDB2006BD0E1 /* OthersMonitorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OthersMonitorViewController.swift; sourceTree = "<group>"; };
+		BD34CF501D5902AF006BD0E1 /* ParseHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseHelper.swift; sourceTree = "<group>"; };
+		BD34CF521D5902B6006BD0E1 /* Drive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drive.swift; sourceTree = "<group>"; };
+		EDA3287B09728A00D09CCAFF /* Pods-Drivr2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Drivr2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Drivr2/Pods-Drivr2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EEE7B27C2609FA4AB9A8376 /* Pods_Drivr2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,19 +71,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BD34CF341D58E03B006BD0E1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				9A8242BD0E6D577D109DBB15 /* Pods_Drivr2Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		095E74AB6ACB1E76ABF88033 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1065EE21A2DADAD4F74E01FA /* Pods-Drivr2.debug.xcconfig */,
+				EDA3287B09728A00D09CCAFF /* Pods-Drivr2.release.xcconfig */,
+				8F445E22BAAD213A75ED6B89 /* Pods-Drivr2Tests.debug.xcconfig */,
+				3EB9059C018DCEFFF27A3023 /* Pods-Drivr2Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB466254D4CBEBE09F1A60DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3569A40A6C3132BC4F509CA5 /* Pods_Drivr2.framework */,
+				5049C84B61BB8D05F00CC10D /* Pods_Drivr2Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BD34CF0C1D58E03B006BD0E1 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +105,8 @@
 				BD34CF2F1D58E03B006BD0E1 /* Drivr2Tests */,
 				BD34CF3A1D58E03B006BD0E1 /* Drivr2UITests */,
 				BD34CF161D58E03B006BD0E1 /* Products */,
+				095E74AB6ACB1E76ABF88033 /* Pods */,
+				AB466254D4CBEBE09F1A60DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,7 +115,6 @@
 			children = (
 				BD34CF151D58E03B006BD0E1 /* Drivr2.app */,
 				BD34CF2C1D58E03B006BD0E1 /* Drivr2Tests.xctest */,
-				BD34CF371D58E03B006BD0E1 /* Drivr2UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,13 +122,17 @@
 		BD34CF171D58E03B006BD0E1 /* Drivr2 */ = {
 			isa = PBXGroup;
 			children = (
+				BD34CF491D58E872006BD0E1 /* LaunchScreen.storyboard */,
 				BD34CF181D58E03B006BD0E1 /* AppDelegate.swift */,
-				BD34CF1A1D58E03B006BD0E1 /* ViewController.swift */,
+				BD34CF1A1D58E03B006BD0E1 /* HomeViewController.swift */,
+				BD34CF4C1D58FDA5006BD0E1 /* OwnDriveViewController.swift */,
+				BD34CF4E1D58FDB2006BD0E1 /* OthersMonitorViewController.swift */,
 				BD34CF1C1D58E03B006BD0E1 /* Main.storyboard */,
 				BD34CF221D58E03B006BD0E1 /* Assets.xcassets */,
-				BD34CF241D58E03B006BD0E1 /* LaunchScreen.storyboard */,
 				BD34CF271D58E03B006BD0E1 /* Info.plist */,
 				BD34CF1F1D58E03B006BD0E1 /* Drivr2.xcdatamodeld */,
+				BD34CF501D5902AF006BD0E1 /* ParseHelper.swift */,
+				BD34CF521D5902B6006BD0E1 /* Drive.swift */,
 			);
 			path = Drivr2;
 			sourceTree = "<group>";
@@ -135,9 +162,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD34CF401D58E03B006BD0E1 /* Build configuration list for PBXNativeTarget "Drivr2" */;
 			buildPhases = (
+				FAB41A5A7755A6E17328F658 /* [CP] Check Pods Manifest.lock */,
 				BD34CF111D58E03B006BD0E1 /* Sources */,
 				BD34CF121D58E03B006BD0E1 /* Frameworks */,
 				BD34CF131D58E03B006BD0E1 /* Resources */,
+				0E44082137ED7F7CB465BC70 /* [CP] Embed Pods Frameworks */,
+				3B4D475828C09C19A0B6576A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +182,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD34CF431D58E03B006BD0E1 /* Build configuration list for PBXNativeTarget "Drivr2Tests" */;
 			buildPhases = (
+				54598B605D9D761F41E2A858 /* [CP] Check Pods Manifest.lock */,
 				BD34CF281D58E03B006BD0E1 /* Sources */,
 				BD34CF291D58E03B006BD0E1 /* Frameworks */,
 				BD34CF2A1D58E03B006BD0E1 /* Resources */,
+				237A68FD866C1149E9492FC5 /* [CP] Embed Pods Frameworks */,
+				CD3E3F463E00CBDD58403370 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -165,24 +198,6 @@
 			productName = Drivr2Tests;
 			productReference = BD34CF2C1D58E03B006BD0E1 /* Drivr2Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		BD34CF361D58E03B006BD0E1 /* Drivr2UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BD34CF461D58E03B006BD0E1 /* Build configuration list for PBXNativeTarget "Drivr2UITests" */;
-			buildPhases = (
-				BD34CF331D58E03B006BD0E1 /* Sources */,
-				BD34CF341D58E03B006BD0E1 /* Frameworks */,
-				BD34CF351D58E03B006BD0E1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BD34CF391D58E03B006BD0E1 /* PBXTargetDependency */,
-			);
-			name = Drivr2UITests;
-			productName = Drivr2UITests;
-			productReference = BD34CF371D58E03B006BD0E1 /* Drivr2UITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -196,12 +211,9 @@
 				TargetAttributes = {
 					BD34CF141D58E03B006BD0E1 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 538AW76DVC;
 					};
 					BD34CF2B1D58E03B006BD0E1 = {
-						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = BD34CF141D58E03B006BD0E1;
-					};
-					BD34CF361D58E03B006BD0E1 = {
 						CreatedOnToolsVersion = 7.3.1;
 						TestTargetID = BD34CF141D58E03B006BD0E1;
 					};
@@ -222,7 +234,6 @@
 			targets = (
 				BD34CF141D58E03B006BD0E1 /* Drivr2 */,
 				BD34CF2B1D58E03B006BD0E1 /* Drivr2Tests */,
-				BD34CF361D58E03B006BD0E1 /* Drivr2UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,7 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD34CF261D58E03B006BD0E1 /* LaunchScreen.storyboard in Resources */,
+				BD34CF4B1D58E872006BD0E1 /* LaunchScreen.storyboard in Resources */,
 				BD34CF231D58E03B006BD0E1 /* Assets.xcassets in Resources */,
 				BD34CF1E1D58E03B006BD0E1 /* Main.storyboard in Resources */,
 			);
@@ -245,23 +256,113 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD34CF351D58E03B006BD0E1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E44082137ED7F7CB465BC70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Drivr2/Pods-Drivr2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		237A68FD866C1149E9492FC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Drivr2Tests/Pods-Drivr2Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B4D475828C09C19A0B6576A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Drivr2/Pods-Drivr2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54598B605D9D761F41E2A858 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CD3E3F463E00CBDD58403370 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Drivr2Tests/Pods-Drivr2Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAB41A5A7755A6E17328F658 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BD34CF111D58E03B006BD0E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD34CF1B1D58E03B006BD0E1 /* ViewController.swift in Sources */,
+				BD34CF4D1D58FDA5006BD0E1 /* OwnDriveViewController.swift in Sources */,
+				BD34CF1B1D58E03B006BD0E1 /* HomeViewController.swift in Sources */,
 				BD34CF211D58E03B006BD0E1 /* Drivr2.xcdatamodeld in Sources */,
 				BD34CF191D58E03B006BD0E1 /* AppDelegate.swift in Sources */,
+				BD34CF531D5902B6006BD0E1 /* Drive.swift in Sources */,
+				BD34CF4F1D58FDB2006BD0E1 /* OthersMonitorViewController.swift in Sources */,
+				BD34CF511D5902AF006BD0E1 /* ParseHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,14 +374,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD34CF331D58E03B006BD0E1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BD34CF3C1D58E03B006BD0E1 /* Drivr2UITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -288,11 +381,6 @@
 			isa = PBXTargetDependency;
 			target = BD34CF141D58E03B006BD0E1 /* Drivr2 */;
 			targetProxy = BD34CF2D1D58E03B006BD0E1 /* PBXContainerItemProxy */;
-		};
-		BD34CF391D58E03B006BD0E1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BD34CF141D58E03B006BD0E1 /* Drivr2 */;
-			targetProxy = BD34CF381D58E03B006BD0E1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -305,10 +393,10 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		BD34CF241D58E03B006BD0E1 /* LaunchScreen.storyboard */ = {
+		BD34CF491D58E872006BD0E1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BD34CF251D58E03B006BD0E1 /* Base */,
+				BD34CF4A1D58E872006BD0E1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -401,28 +489,37 @@
 		};
 		BD34CF411D58E03B006BD0E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1065EE21A2DADAD4F74E01FA /* Pods-Drivr2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Drivr2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sakuradavis1.Drivr2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		BD34CF421D58E03B006BD0E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDA3287B09728A00D09CCAFF /* Pods-Drivr2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Drivr2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sakuradavis1.Drivr2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 		BD34CF441D58E03B006BD0E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F445E22BAAD213A75ED6B89 /* Pods-Drivr2Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = Drivr2Tests/Info.plist;
@@ -435,6 +532,7 @@
 		};
 		BD34CF451D58E03B006BD0E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EB9059C018DCEFFF27A3023 /* Pods-Drivr2Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = Drivr2Tests/Info.plist;
@@ -442,28 +540,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sakuradavis1.Drivr2Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drivr2.app/Drivr2";
-			};
-			name = Release;
-		};
-		BD34CF471D58E03B006BD0E1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = Drivr2UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sakuradavis1.Drivr2UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = Drivr2;
-			};
-			name = Debug;
-		};
-		BD34CF481D58E03B006BD0E1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = Drivr2UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sakuradavis1.Drivr2UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = Drivr2;
 			};
 			name = Release;
 		};
@@ -486,6 +562,7 @@
 				BD34CF421D58E03B006BD0E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD34CF431D58E03B006BD0E1 /* Build configuration list for PBXNativeTarget "Drivr2Tests" */ = {
 			isa = XCConfigurationList;
@@ -494,14 +571,7 @@
 				BD34CF451D58E03B006BD0E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		BD34CF461D58E03B006BD0E1 /* Build configuration list for PBXNativeTarget "Drivr2UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BD34CF471D58E03B006BD0E1 /* Debug */,
-				BD34CF481D58E03B006BD0E1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

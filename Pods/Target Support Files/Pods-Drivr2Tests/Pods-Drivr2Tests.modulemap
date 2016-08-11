@@ -1,0 +1,6 @@
+framework module Pods_Drivr2Tests {
+  umbrella header "Pods-Drivr2Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

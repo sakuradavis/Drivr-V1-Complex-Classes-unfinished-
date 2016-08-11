@@ -1,0 +1,6 @@
+framework module Pods_Drivr2 {
+  umbrella header "Pods-Drivr2-umbrella.h"
+
+  export *
+  module * { export * }
+}
